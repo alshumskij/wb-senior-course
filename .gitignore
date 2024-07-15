@@ -1,0 +1,35 @@
+## Build generated
+/build/
+DerivedData/
+
+## Various settings
+xcuserdata/
+
+## Other
+*.xcuserstate
+*.DS_Store
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+.build/
+**/xcuserdata/
+**/xcshareddata/swiftpm/Package.resolved
+.swiftpm/
+
+# build/tests artifacts
+test-reports/
+report.html
+report.junit
+*.log
+*.xcresult
+coverage/
+*.app/
+*.app.zip
